@@ -1,0 +1,94 @@
+ body
+        {
+ 	        font-family: 'Roboto', sans-serif;
+ 	        margin-bottom: -60px;
+ 	        background-color: grey;
+        }
+
+
+header
+        {
+            background-color:red;
+	        overflow: hidden;
+	        width: 100%;
+	        margin: 0;
+	        color: black;
+	        position: fixed;
+	        margin-top: -150px;
+	        margin-left: -10px;
+        }
+
+.navigation li
+        {
+	        overflow: hidden;
+	        display: inline;
+	    }
+.navigation {
+	
+	            color: white;
+            }
+.navigation li a
+            {
+	
+				float: right;
+				padding:0 20px;
+				padding-bottom: 20px;
+				padding-color:red;
+				text-decoration: none;
+            }
+    
+img 
+           {
+                opacity: 0.5;
+			}
+    
+
+
+img:hover 
+			{
+    			opacity: 1.0;
+    			filter: alpha;
+
+ 			}   
+ a:hover
+ 			{
+				background-color: yellow;
+	
+			} 
+.secondForm 
+			{
+				margin-top: 150px;
+				overflow: hidden;
+			} 
+
+form
+			{
+				display: inline;
+			}	
+h2
+			{
+				text-align: center;
+			}
+footer
+			{
+				text-align: center;
+				background color: orange;
+				color: black;
+				font-weight: bold;
+				width: 100%;
+				margin-top: 200px;
+	
+			}
+button:hover
+			{
+				background-color: red;
+	
+			}
+
+
+button
+			{
+				background-color: red;
+				color:white;
+				font-weight: bold;
+			}

@@ -1,0 +1,135 @@
+body
+        {
+            font-family: 'Roboto', sans-serif;
+            margin: 0PX 0PX 0PX 0PX;
+        }
+	        
+	        
+header
+        {
+            background-color:red;
+	        overflow: hidden;
+	        width: 100%;
+	        margin: 0;
+	        color: black;
+	        position: fixed;
+	        margin-top: 0;
+	        padding-top: 20 px;
+        }
+
+.navigation li
+        {
+	        overflow: hidden;
+	        display: inline;
+	    }
+.navigation
+        {
+	        color: white;
+        }
+.navigation li a
+        {
+	        float: right;
+	        padding:0 20px;
+	        padding-bottom: 20px;
+	        padding-color:red;
+	        text-decoration: none;
+	    }
+img 
+        {
+         opacity: 0.5;
+    /* For IE8 and earlier */
+        }
+
+img:hover
+        {
+            opacity: 1.0;
+            filter: alpha;
+        }
+
+ a:hover
+        {
+	        background-color: yellow;
+	    }
+
+.imge
+        {
+            padding-top: 122px;
+            overflow: hidden;
+        }
+
+.audi      
+        {
+	        text-align: center;
+            margin-bottom: 500 px;
+
+        }
+.con
+        {
+	        text-align: center;
+        }
+
+.ride
+        {
+	        margin-top: 50px;
+        }
+.drive
+        {
+	        font-size: 25px;
+	        font-weight: bold;
+        }
+.sound
+        {
+	        text-align: center;
+        }
+.sport
+        {
+	        text-align: center;
+        }
+.best
+        {
+	        text-align: center;
+        }
+.tes    {
+	        font-weight: bold;
+	        background-color: red;
+	        color: white;
+        }
+footer
+        {
+	        background-color: black;
+	        color: white;
+        }
+.ser
+        {
+	        list-style: none;
+        }
+.like
+        {
+	        list-style: none;
+        }
+
+.ex
+        {
+	        list-style: none;
+        }
+
+.ag
+        {
+	        list-style: none;
+        }
+.sty
+        {
+	        font-weight: bold;
+	        color: pink;
+        }
+.goo
+        {
+	        font-weight: bold;
+	        font-size: 25px;
+        }
+button
+        {
+	        background-color: red;
+	        color:white;
+	        font-weight: bold;
+        }

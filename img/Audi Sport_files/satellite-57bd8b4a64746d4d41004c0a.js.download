@@ -1,0 +1,16 @@
+document.addEventListener('trackingApiParseApiCall', function(data) {
+  //window.tms.analyticsInfo.onCookieReady(function() {
+    if (typeof(data.detail[0]) !== 'undefined' && typeof(data.detail[0].event[0]) !== 'undefined')
+    {
+      var e=data.detail[0].event[0].eventInfo;
+      if (typeof(e.eventAction)&&typeof(e.eventName))
+      {
+        //console.log('event:',e.eventAction,e.eventName);
+        if (e.eventAction==='page_load')
+        {
+          _satellite.track('trackPageView');
+        }
+      }
+    }
+  //});
+});
